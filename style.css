@@ -7,7 +7,7 @@ body{
 }
 
 span{
-  font-size: 11px;
+  font-size: 13px;
   color: gray;
   font-weight: bold;
 }
@@ -17,17 +17,18 @@ span{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 170px;
+  width: auto;
   background-color: #fff;
   border: 3px solid #fff;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 10px rgba(74,74,74, 0.7);
+  box-shadow: 0px 0px 10px 10px rgba(74,74,74, 0.6);
   padding: 15px;
 }
 .display{
-  height: 51px;
-  width: 141px;
+  height: 50px;
+  width: 158px;
   outline: none;
+  color: #333;
   border:none;
   padding: 0px 10px;
   font-size: 15px;
@@ -40,17 +41,15 @@ input[type=button]{
   margin-top: 10px;
   margin-left: 1px;
   background-color: #fff;
+  color:#333;
   border: none;
   outline: none;
-  width: 37px;
-  height: 36px;
-  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
   box-shadow: inset 1px 2px 8px rgba(150,150,150,0.1),inset 1px 1px 2px rgba(150,150,150,0.3),inset 1px 1px 2px rgba(150,150,150,0.3), 1px 1px 2px rgba(150,150,150,0.3);
 }
 input[type=button]:focus{
-
-background-color:#7575ff;
-
-color:#fff;
-
+  background-color: #7575ff;
+  color:#fff;
 }
